@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Serif:wght@700&display=swap');
 
 :root {
   --main-bg-color: #202830;
@@ -10,8 +10,12 @@
   --logo-orange: #FF8000;
   --logo-green: #00E054;
   --logo-blue: #40BCF4;
+
+  --content-width: 60%;
 }
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--light-bg-color);
 }

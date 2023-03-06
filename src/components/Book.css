@@ -1,0 +1,39 @@
+.book-cover {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.book-cover:hover {
+  outline: solid white 3px;
+  cursor: pointer;
+}
+.no-hover:hover {
+  outline: none;
+  cursor: auto;
+}
+.read-book:hover {
+  outline-color: var(--logo-green);
+}
+.book-cover img {
+  height: 100%;
+}
+.book-icons {
+  z-index: 2;
+  position: relative;
+  bottom: 28px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 5px 0;
+}
+.book-icons button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  color: var(--light-bg-color);
+  cursor: pointer;
+}
+.book-icons button:hover {
+  color: #707d82;
+}
