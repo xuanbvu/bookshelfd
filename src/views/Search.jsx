@@ -34,7 +34,7 @@ const Search = () => {
         const info = volume.volumeInfo;
         return (
           <div className='search-result' key={volume.id}>
-            <Book imageUrl={info.imageLinks?.thumbnail} id={volume.id} />
+            <Book imageUrl={info.imageLinks?.thumbnail} id={volume.id} page={'search'} />
             <div>
               <h1 onClick={() => clickBook(volume.id)}>{info.title}</h1>
               <h3>{info.publishedDate.split('-')[0]}</h3>

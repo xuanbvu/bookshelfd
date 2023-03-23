@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import genericBook from '../images/genericbook.png';
 import './Book.css';
 
-const Book = ({ imageUrl, id }) => {
+const Book = ({ imageUrl, id, page }) => {
   const navigate = useNavigate();
   const bookCover = document.getElementById(id);
 
@@ -30,7 +30,7 @@ const Book = ({ imageUrl, id }) => {
   return (
     <div
       id={id}
-      className='book-cover'
+      className={`book-cover ${page}-book-cover`}
       onMouseEnter={() => setShowIcons(true)}
       onMouseLeave={() => setShowIcons(false)}
     >

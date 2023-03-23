@@ -5,7 +5,7 @@ import Diary from './views/Diary';
 import BooksList from './views/BooksList';
 import Bookshelf from './views/Bookshelf';
 import Readlist from './views/Readlist';
-import Book from './views/Book';
+import BookPage from './views/BookPage';
 import Reading from './views/Reading';
 import Search from './views/Search';
 import './App.css';
@@ -22,7 +22,7 @@ function App() {
           <Route path='/readlist' element={ <Readlist /> } />
           <Route path='/reading' element={ <Reading /> } />
 
-          <Route path='/book/:bookTitle' element={ <Book /> } />
+          <Route path='/book/:bookId' element={ <BookPage /> } />
           <Route path='/search/:searchTerm' element={ <Search /> } />
         </Route>
       </Routes>

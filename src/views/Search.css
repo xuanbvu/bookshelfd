@@ -36,7 +36,7 @@
 .search-result p {
   font-size: 0.75rem;
 }
-.book-cover {
+.search-book-cover {
   grid-row: 1/3;
   height: 100px;
 }

@@ -1,0 +1,11 @@
+.bookpage-book-cover {
+  height: 250px;
+}
+.bookpage-book-cover:hover {
+  outline: none;
+}
+.bookpage-book-cover .book-icons {
+  width: 50%;
+  margin: auto;
+  bottom: 35px;
+}

@@ -1,6 +1,7 @@
 .book-cover {
   border-radius: 5px;
   overflow: hidden;
+  width: fit-content;
 }
 .book-cover:hover {
   outline: solid white 3px;
